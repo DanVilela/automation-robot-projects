@@ -1,0 +1,13 @@
+Feature: Explorar Produtos no site da Amazon
+
+  Scenario: Acessar Menu de Eletrônicos e Verificar Detalhes
+    Given que o usuário está na home page da Amazon
+    When ele acessa o menu "Eletrônicos"
+    Then ele vê o título da página como "Eletrônicos e Tecnologia"
+    And ele verifica que a categoria "Computadores e Informática" está presente
+
+  Scenario: Pesquisar por um Produto e Verificar Resultados
+    Given que o usuário está na home page da Amazon
+    When ele digita "Xbox Series S" no campo de pesquisa
+    And ele clica no botão de pesquisa
+    Then o resultado da pesquisa lista o produto "Xbox Series S"
