@@ -16,10 +16,10 @@ Caso de teste 01 - Acesso ao menu "Eletronicos"
     Verificar se o titulo da pagina fica "Eletrônicos e Tecnologia | Amazon.com.br"
     Verificar se aparece a categoria "Computadores e Informática"
 
-# Caso de teste 02 - Pesquisa de um Produto
-#   [Documentation]    Este teste serve para verificar a busca de um produto
-#   [Tags]             busca_produtos    lista_busca
-#     Acessar a home page do site Amazon.com.br
-#     Digitar o nome do produto "Xbox Series S" no campo de Pesquisa
-#     Clicar no botao de Pesquisa
-#     Verificar o resultado da pesquisa se esta listando o produto pesquisado 
+Caso de teste 02 - Pesquisa de um Produto
+  [Documentation]    Este teste serve para verificar a busca de um produto
+  [Tags]             busca_produtos    lista_busca
+    Acessar a home page do site Amazon.com.br
+    Digitar o nome do produto "Xbox Series S" no campo de Pesquisa
+    Clicar no botao de Pesquisa
+    Verificar o resultado da pesquisa se esta listando o produto "Console Xbox Series S" 
