@@ -16,12 +16,12 @@ Abrir Navegador
     Open Browser    browser=chrome    options=add_experimental_option("detach", True)
     Maximize Browser Window
 Fechar Navegador
+    Capture Page Screenshot
     Close Browser
 
 Acessar a home page do site Amazon.com.br
     Go To    url=${URL}
     Wait Until Element is Visible    locator=${MAIN_PAGE_LOGO}
-    Sleep    10s
 Entrar no menu Eletronicos
     Click Element    locator=${MENU_ELETRONICS}
     
